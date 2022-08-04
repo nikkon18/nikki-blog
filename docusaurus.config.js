@@ -9,7 +9,7 @@ const config = {
   title: 'Nikki的博客',
   tagline: '锲而不舍 金石可镂',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/nikki-blog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -31,8 +31,7 @@ const config = {
           showReadingTime: true,
           blogSidebarCount: 'ALL',
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,7 +56,7 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/blog', label: 'Blog', position: 'left'}
+          { to: '/blog', label: 'Blog', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
@@ -84,14 +83,14 @@ const config = {
           //       label: 'Stack Overflow',
           //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
           //     },
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
-              // {
-              //   label: 'Twitter',
-              //   href: 'https://twitter.com/docusaurus',
-              // },
+          // {
+          //   label: 'Discord',
+          //   href: 'https://discordapp.com/invite/docusaurus',
+          // },
+          // {
+          //   label: 'Twitter',
+          //   href: 'https://twitter.com/docusaurus',
+          // },
           //   ],
           // },
           {
@@ -100,7 +99,7 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
-              }
+              },
               // {
               //   label: 'GitHub',
               //   href: 'https://github.com/nikkon18',
