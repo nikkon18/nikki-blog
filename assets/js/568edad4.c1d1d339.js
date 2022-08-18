@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmyblog=self.webpackChunkmyblog||[]).push([[5812],{6754:l=>{l.exports=JSON.parse('{"allTagsPath":"/nikki-blog/blog/tags","slug":"/nikki-blog/blog/tags/vue","name":"Vue","count":2,"permalink":"/nikki-blog/blog/tags/vue"}')}}]);
