@@ -2,7 +2,7 @@
 ###
  # @Descripttion: 部署命令是 bash deploy.sh
  # @Author: dym
- # @Date: 2022-08-04 14:19:19
+ # @Date: 2022-08-04 14:19:20
 ### 
 # 错误时停止
 set -e
