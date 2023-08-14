@@ -50,12 +50,13 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
+          {
+            to: '/docs',
+            type: 'doc',
+            docId: 'Supervised Machine Learning/Overview of Machine learning',
+            position: 'left',
+            label: 'Notes',
+          },
           { to: '/blog', label: 'Blog', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
